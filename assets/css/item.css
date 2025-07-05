@@ -12,6 +12,10 @@
 }
 
 .items li {
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+    
     flex: 1;
 
     height: fit-content;

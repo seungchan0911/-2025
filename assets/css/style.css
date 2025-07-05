@@ -71,7 +71,7 @@ main { display: flex; flex-direction: column; align-items: center; gap: 100px; p
 .item-container > ul > li {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 12.5px;
 
     width: 250px;
 }
@@ -179,6 +179,14 @@ tr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+tbody tr {
+    cursor: pointer;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.025);
+    }
+}
+
 .contract-section {
     display: flex;
     flex-direction: column;
@@ -211,6 +219,11 @@ tr {
     border: 1px solid rgba(0, 0, 0, 0.125);
     font-size: 14px;
     cursor: pointer;
+    transition: .25s;
+    
+    &:hover {
+        background: rgba(0, 0, 0, 0.025);
+    }
 }
 
 .process-section {
